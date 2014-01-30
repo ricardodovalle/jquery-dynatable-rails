@@ -6,11 +6,13 @@ require 'jquery/dynatable/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "jquery-dynatable-rails"
   spec.version       = Jquery::Dynatable::Rails::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Ricardo do Valle"]
+  spec.email         = ["ricardodovalle@gmail.com"]
+  spec.summary       = %q{jQuery Dynatable for Rails.}
+  spec.description   = %q{Dynatable is a funner, semantic,
+                          interactive table plugin using jQuery, HTML5, and JSON.
+                          And it's not just for tables.}
+  spec.homepage      = "https://github.com/ricardodovalle/jquery-dynatable-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +20,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency 'bundler', '~> 1.5'
+  spec.add_development_dependency 'rake', '~> 0'
+
+  spec.add_dependency 'jquery-rails', '~> 0'
 end
