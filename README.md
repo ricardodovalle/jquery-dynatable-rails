@@ -1,6 +1,10 @@
 # Jquery::Dynatable::Rails
 
-TODO: Write a gem description
+This gem packages the jQuery [Dynatable](https://github.com/alfajango/jquery-dynatable)
+plugin for easy use with the Rails 3.1+ asset pipleine.
+
+Dynatable is a funner, semantic, interactive table plugin using jQuery,
+HTML5, and JSON. And it's not just for tables.
 
 ## Installation
 
@@ -20,9 +24,20 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Thanks
+Thanks the authors for making the [Dynatable](https://github.com/alfajango/jquery-dynatable) plugin for jQuery:
+
+Steve Schwartz -
+[JangoSteve on Github](https://github.com/JangoSteve),
+[@jangosteve on Twitter](https://twitter.com/jangosteve)
+
+![Alfa Jango logo](https://s3.amazonaws.com/s3.alfajango.com/github-readmes/AlfaJango_Logo_Black_noname-tiny.png)
+[Alfa Jango Open Source](http://os.alfajango.com) -
+[@alfajango on Twitter](https://twitter.com/alfajango)
+
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/jquery-dynatable-rails/fork )
+1. Fork it ( http://github.com/ricardodovalle/jquery-dynatable-rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
