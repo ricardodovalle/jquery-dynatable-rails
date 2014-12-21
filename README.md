@@ -3,6 +3,10 @@
 This gem packages the jQuery [Dynatable](https://github.com/alfajango/jquery-dynatable)
 plugin for easy use with the Rails 3.1+ asset pipleine.
 
+Dynatable is licensed under AGPL, but has an optional [Commercial License
+which may be purchased](http://www.dynatable.com/license/),
+so make sure you have a valid license to use Dynatable.
+
 Dynatable is a funner, semantic, interactive table plugin using jQuery,
 HTML5, and JSON. And it's not just for tables.
 
@@ -34,6 +38,14 @@ Steve Schwartz -
 ![Alfa Jango logo](https://s3.amazonaws.com/s3.alfajango.com/github-readmes/AlfaJango_Logo_Black_noname-tiny.png)
 [Alfa Jango Open Source](http://os.alfajango.com) -
 [@alfajango on Twitter](https://twitter.com/alfajango)
+
+## License
+
+Dynatable is dual licensed, released under the Free Software Foundation's GNU Affero General Public License (AGPL),
+or see [license information](http://www.dynatable.com/license) for proprietary or commercial applications.
+
+**Note: The MIT license for early jquery-dynatable-rails versions <= 0.3.1 are
+incompatible with the Dynatable license.**
 
 ## Contributing
 
