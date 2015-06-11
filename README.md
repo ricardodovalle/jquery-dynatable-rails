@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    /= require 'jquery.dynatable'
+
 
 ## Thanks
 Thanks the authors for making the [Dynatable](https://github.com/alfajango/jquery-dynatable) plugin for jQuery:
