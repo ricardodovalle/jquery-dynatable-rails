@@ -20,10 +20,24 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+<<<<<<< HEAD
+  spec.add_development_dependency 'bundler'
+  spec.add_development_dependency 'rake'
+||||||| merged common ancestors
+  spec.add_development_dependency 'bundler', '~> 1.5'
+  spec.add_development_dependency 'rake', '~> 0'
+=======
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
 
   spec.add_dependency 'jquery-rails'
   spec.add_dependency "railties", ">= 3.2", "< 5.0"
+>>>>>>> fa6fb85e0124a5c424b807a5b424d5899b924f11
 
+<<<<<<< HEAD
+  spec.add_dependency 'jquery-rails'
+||||||| merged common ancestors
+  spec.add_dependency 'jquery-rails', '~> 0'
+=======
+>>>>>>> fa6fb85e0124a5c424b807a5b424d5899b924f11
 end
