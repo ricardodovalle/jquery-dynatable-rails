@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake'
 
   spec.add_dependency 'jquery-rails'
+  spec.add_dependency "railties", ">= 3.2", "< 5.0"
+
 end
